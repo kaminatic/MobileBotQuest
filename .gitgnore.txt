@@ -1,0 +1,17 @@
+# Python compilation cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local debug outputs and captured runtime images
+*.jpg
+*.png
+!mask_output.png          # Keep if you want an example, otherwise ignore
+detected_overlay.png
+
+# Calibration data
+*.npy
+
+# OS specific files
+.DS_Store
+Thumbs.db
